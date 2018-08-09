@@ -1,64 +1,95 @@
-html{
-    position: relative;
-    min-height: 100%
+.brand_color {
+    color: white !important;
+    font-size: 1.8em;
+}
+nav a {
+    font-size: 1.2em;
 }
 
-body{
-    margin-bottom: 60px;
+.drop_down_color{
+    color: black;
+    font-size: 0.8em;
 }
 
-.panel-body{
-    background-color: #f8f8f8;
+#home {
+    background: grey;
 }
 
-h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: teal;
-}
-
-h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: teal;
-    text-align: center;
-    font-weight: bold;
-}
-
-.panel{
+body {
     padding: 10px;
-    background-color: #f8f8f8;
+    margin: 10px;
+    font-family: 'Titillium Web', sans-serif;   
 }
 
-footer{
-    color: white;
-    background-color: rgb(110, 108, 108);
-    padding: 15px;
-    height: 60px;
+#image {
+    width: 60%;
+    height: 60%;
+    margin: 10px;
+    padding: 5px;
+  }
+.img-border {
+    margin: 2px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    margin: 5px;
+}
+.active-image {
+    border: 1px solid black;
+    padding: 0;
+}
+
+.column-border {
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
+.fa {
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.25;
+}
+table {
+    border-collapse: collapse;
     width: 100%;
-    border-top: 10px;
-    border-top-color: teal;
-    border-width: 10px;
-    border-top-style: solid;
-    position: absolute;
-    bottom: 0;
+}
+.table-scroll {
+    height: 400px !important;
+    overflow-y: scroll;
 }
 
-.text{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
 }
 
-.text2{
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
+tr:nth-child(even) {
+    background-color:lightgray;
 }
 
-.column_names{
-    font-weight: bold;
+tr:nth-child(odd){
+    background: white;
 }
 
-.current{
-    border: 5px;
-    border-width: 5px;
-    border-color: teal;
-    border-style: solid;
+
