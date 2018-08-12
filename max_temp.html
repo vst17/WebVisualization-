@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" <class="gr__vst17.github.io">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Veronika Tueros Weather Visualization</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests.css">
+
+</head>
+
+<!-- Nav Bar -->
+<body>
+
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target=#myNavbar" aria-expanded="false" aria-controls="navbar">
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+          </button>
+          <a id="home" class="activate navbar-brand brand_color" href="index.html">Latitude</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+              <ul class="dropdown-menu drop_down_color">
+                <li>
+                  <a href="max_temp.html">Max Temperature</a>
+                </li>
+                <li>
+                  <a href="humidity.html">Humidity</a>
+                </li>
+                <li>
+                  <a href="cloudiness.html">Cloudiness</a>
+                </li>
+                <li>
+                  <a href="wind_speed.html">Wind Speed</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="comparison.html">Comparison</a>
+            </li>
+            <li>
+              <a href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <!--End of Nav Bar-->
+  <!-- Start of container -->
+<div class="container-fluid">
+  <div class="page-header">
+    <div class="jumbotron">
+      <header>
+        <div class ="row">
+          <div class="left col-lg-8 col-md-8col-xs-12">
+            <h2>Summary: Latitude vs Temperature</h2>
+            <img id="image" src="Weather_Analysis/Latitude_Temperature.png"
+            class ="pull-left img-responsive img-rounded" alt="Latitude vs Temperature">
+            <p> The analysis for this data was created on June 21 , 2018. What you are seeing is a relationship between latitude and temperature for 500+ cities in the world. As you can see, near the equator temperatures are always high, and further you are for the equater, the lower the temperature will be. Thus, the temperature of a country varies on their lattitude. For this data, the CityPy module generated mostly cities located in the northern hemisphere. Around June the northern hemisphere is closest to the equator, which leads to hotter temperatues. 
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12">
+          <center><h2>Visualizations</h2></center>
+
+            <div class="row">
+              <div class="col-md-6 col-lg-6">
+                <div class="thumbnail">
+                 <a href="max_temp.html"><img src="Weather_Analysis/Latitude_Temperature.png" class="img-responsive alt="Latitude vs Temperature></a>
+                </div>
+              </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="thumbnail">
+                <a href="humidity.html"><img src="Weather_Analysis/Latitude_Humidity.png" class="img-responsive alt="Latitude vs Humidity"></a>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+
+            <div class="col-md-6 col-lg-6">
+              <div class="thumbnail">
+                <a href="cloudiness.html"><img src="Weather_Analysis/Latitude_Cloudiness.png" class="img-responsive alt="latitude vs Cloudiness"></a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+              <div class="thumbnail">
+                <a href="wind_speed.html"><img src="Weather_Analysis/Latitude_WindSpeed.png" class="img-responsive alt="Latitude vs Wind Speed"></a>
+              </div>
+            </div>
+
+          </div>
+          </div>
+          <div class="clearfix"></div>
+     </header>     
+    </div> 
+  </div>
+</body>
+
+<!-- Footer -->
+
+<div class = "container-fluid">
+     <footer style="background-color: lightgrey">
+             <p>
+                <small>© Copyright Veronika Tueros 2018</br>
+                        Rutgers Visualization Boot Camp</small>
+              </p>
+      </footer>
+</div>
+</html>    
