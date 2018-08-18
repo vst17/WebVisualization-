@@ -1,5 +1,5 @@
 .brand_color {
-    color: white !important;
+    color: black !important;
     font-size: 1.8em;
 }
 nav a {
@@ -7,7 +7,7 @@ nav a {
 }
 
 .drop_down_color{
-    color: black;
+    color: white;
     font-size: 0.8em;
 }
 
@@ -18,7 +18,7 @@ nav a {
 body {
     padding: 10px;
     margin: 10px;
-    font-family: 'Titillium Web', sans-serif;   
+    font-family: "Comic Sans MS", cursive, sans-serif;   
 }
 
 #image {
